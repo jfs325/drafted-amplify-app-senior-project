@@ -23,7 +23,7 @@ export default class BatchControl extends Component {
                 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' />
                 <NavBar brand={brand} links={links}/>
 
-                <div className={styles.mainContainer}>
+                <div className={styles.mainContent}>
                     <div className="form">
                         <h2 className={styles.heading1}>Create a New Batch</h2>
                         <div className={styles.formItem}>

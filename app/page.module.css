@@ -10,8 +10,7 @@
   padding-bottom: 30px;
 }
 
-.mainContainer {
-  display: flex;
+.mainContent {
   background: linear-gradient(20deg, #f5cdb3 50%, rgba(255, 225, 197, 1) 50%);
   min-height: 100vh;
 }
@@ -19,6 +18,33 @@
 .background {
   background-color: #FFE1C5;
   background-size: cover;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salesOverTime {
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.beerRevenueBreakdown {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+
+.monthlyByBeer {
+  width: 800px;
+  height: 400px;
+  background-color: white;
 }
 
 .description {

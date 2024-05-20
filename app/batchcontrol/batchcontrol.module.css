@@ -1,4 +1,4 @@
-.mainContainer {
+.mainContent {
     display: flex;
     background: linear-gradient(20deg, #f5cdb3 50%, rgba(255, 225, 197, 1) 50%);
     min-height: 100vh;
