@@ -1,16 +1,65 @@
 .mainContent {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     background-color: #FFE1C5;
     min-height: 100vh;
 }
 
 .heading1 {
     color: #C16C47;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-bottom: 30px;
+    margin-top: 30px;
 }
 
 .main {
     font-family: 'Montserrat';
+}
+
+.profile {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contactInfo {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.contactInfo p {
+    margin-bottom: 10px;
+}
+
+.socialMedia {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socialMedia li {
+    display: inline;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.socialMedia a:hover {
+    color: #C16C47;
+}
+
+.logo img {
+    width: 300px; /* slightly enlarged */
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* added margin for spacing */
 }
